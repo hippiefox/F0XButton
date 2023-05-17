@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		1FC26877A62223B7E1BC57AB /* Pods_F0XButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_F0XButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A113D6A1278784282ACF0D7 /* Pods-F0XButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F0XButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-F0XButton_Tests/Pods-F0XButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		58409EEF92F1D111C74AF61A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5FA2B10B8BB18F7F84469BDE /* F0XButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = F0XButton.podspec; path = ../F0XButton.podspec; sourceTree = "<group>"; };
+		58409EEF92F1D111C74AF61A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5FA2B10B8BB18F7F84469BDE /* F0XButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = F0XButton.podspec; path = ../F0XButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* F0XButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F0XButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		663A269FC67A86A9FDC7FBD5 /* Pods-F0XButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F0XButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-F0XButton_Example/Pods-F0XButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF6D37871057A7D6A8A38892 /* Pods-F0XButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F0XButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-F0XButton_Tests/Pods-F0XButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8633322EF40ED4966049C78 /* Pods-F0XButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F0XButton_Example.release.xcconfig"; path = "Target Support Files/Pods-F0XButton_Example/Pods-F0XButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE14FA36468576DD60AAE491 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CE14FA36468576DD60AAE491 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D11B637157C932023CD600D6 /* Pods_F0XButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_F0XButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				AF6D37871057A7D6A8A38892 /* Pods-F0XButton_Tests.debug.xcconfig */,
 				4A113D6A1278784282ACF0D7 /* Pods-F0XButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -516,6 +516,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +535,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

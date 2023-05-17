@@ -1,0 +1,6 @@
+framework module F0XButton {
+  umbrella header "F0XButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

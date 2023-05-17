@@ -1,0 +1,16 @@
+PODS:
+  - F0XButton (0.1.0)
+
+DEPENDENCIES:
+  - F0XButton (from `../`)
+
+EXTERNAL SOURCES:
+  F0XButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  F0XButton: 929de7ee71d66ea6a7aacf4dcfe6d04ac5a8b39a
+
+PODFILE CHECKSUM: 3691e2322af6811fd2fc3705d617cd470b1576cf
+
+COCOAPODS: 1.12.1
