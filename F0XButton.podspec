@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'F0XButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of F0XButton.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Fox/F0XButton'
+  s.homepage         = 'https://github.com/hippiefox/F0XButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fox' => 'foxhippie5@gmail.com' }
