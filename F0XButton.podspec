@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'F0XButton'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of F0XButton.'
 
 # This description is used to generate tags and improve search results.

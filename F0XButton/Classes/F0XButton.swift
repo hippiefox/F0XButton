@@ -18,7 +18,11 @@ public extension F0XButton {
 }
 
 open class F0XButton: UIControl {
-    public var icon4NormalState: UIImage?
+    public var icon4NormalState: UIImage?{
+        didSet{
+            iconImageView.image = icon4NormalState
+        }
+    }
     public var icon4SelectedState: UIImage?
     public var icon4DisabledState: UIImage?
     public var title4NormalState: String? {
