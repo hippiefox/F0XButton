@@ -112,6 +112,8 @@ open class F0XButton: UIControl {
 
     override public init(frame: CGRect) {
         super.init(frame: frame)
+        addSubview(titleLabel)
+        addSubview(iconImageView)
     }
 
     public required init?(coder: NSCoder) {
